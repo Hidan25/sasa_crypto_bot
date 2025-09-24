@@ -1,3 +1,5 @@
+from turtledemo.forest import start
+
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
 menu = [
     [InlineKeyboardButton(text="📝Хочеш текстову хуйню?", callback_data="generate_text"),

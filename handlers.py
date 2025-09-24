@@ -9,7 +9,7 @@ router = Router()
 
 @router.message(Command("start"))
 async def start_handler(msg: Message):
-    await msg.answer("Доров бля, що хоч?")
+    await msg.answer("Доров бля, що хоч? дави на Меню🫡")
 
 @router.message(F.text == "Меню")
 @router.message(F.text == "Давай назад в меню нахооой")
